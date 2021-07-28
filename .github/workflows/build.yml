@@ -27,6 +27,8 @@ jobs:
           - bfo9000_left
           - bfo9000_right
           - boardsource3x4
+          - breeze_left
+          - breeze_right
           - corne_left
           - corne_right
           - cradio_left
