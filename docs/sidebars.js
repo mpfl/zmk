@@ -11,6 +11,8 @@ module.exports = {
     Features: [
       "features/keymaps",
       "features/combos",
+      "features/conditional-layers",
+      "features/debouncing",
       "features/displays",
       "features/encoders",
       "features/underglow",
@@ -25,6 +27,7 @@ module.exports = {
       "behaviors/mod-morph",
       "behaviors/sticky-key",
       "behaviors/sticky-layer",
+      "behaviors/caps-word",
       "behaviors/reset",
       "behaviors/bluetooth",
       "behaviors/outputs",
@@ -56,7 +59,10 @@ module.exports = {
         type: "category",
         label: "Guides",
         collapsed: false,
-        items: ["development/new-shield"],
+        items: [
+          "development/new-shield",
+          "development/hardware-metadata-files",
+        ],
       },
     ],
   },
