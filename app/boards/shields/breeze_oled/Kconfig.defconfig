@@ -1,22 +1,22 @@
 
-if SHIELD_BREEZE_LEFT
+if SHIELD_BREEZE_OLED_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Breeze Left"
+	default "Breeze"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_BREEZE_RIGHT
+if SHIELD_BREEZE_OLED_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "Breeze Right"
 
 endif
 
-if SHIELD_BREEZE_LEFT || SHIELD_BREEZE_RIGHT
+if SHIELD_BREEZE_OLED_LEFT || SHIELD_BREEZE_OLED_RIGHT
 
 config ZMK_SPLIT
 	default y
