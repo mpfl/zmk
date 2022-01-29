@@ -1,0 +1,13 @@
+file_format: "1"
+id: breeze_oled
+name: Breeze OLED
+type: shield
+url: https://splitkb.com/products/kyria-pcb-kit
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - breeze_oled_left
+  - breeze_oled_right
